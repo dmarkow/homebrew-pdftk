@@ -1,10 +1,10 @@
 require 'formula'
 
 class Pdftk < Formula
-  homepage 'https://github.com/dmarkow/pdftk'
-  url 'https://github.com/dmarkow/pdftk.git', :tag => "v2.02"
+  homepage 'https://github.com/docmunch/pdftk'
+  url 'https://github.com/docmunch/pdftk.git', :tag => "v2.02"
 
-  head 'https://github.com/dmarkow/pdftk.git', :branch => 'master'
+  head 'https://github.com/docmunch/pdftk.git', :branch => 'master'
 
   option "with-java", "Build gcc using --with-java instead of --with-all-languages"
 
