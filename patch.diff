@@ -41,7 +41,7 @@ index 8f7e52d..390c974 100644
  #  
 -export MACOSX_DEPLOYMENT_TARGET= 10.4
 -export CPPFLAGS= -DPATH_DELIM=0x2f -DASK_ABOUT_WARNINGS=false -DUNBLOCK_SIGNALS -fdollars-in-identifiers -mmacosx-version-min=10.4
-+export CPPFLAGS= -DPATH_DELIM=0x2f -DASK_ABOUT_WARNINGS=false -DUNBLOCK_SIGNALS -fdollars-in-identifiers
++export CPPFLAGS= -DPATH_DELIM=0x2f -DASK_ABOUT_WARNINGS=false -DUNBLOCK_SIGNALS -fdollars-in-identifiers -L/usr/local/opt/zlib/lib -L/usr/local/opt/libiconv/lib
  export CXXFLAGS= -Wall -Wextra -Weffc++ -O2
  export GCJFLAGS= -Wall -fsource=1.3 -O2
  export GCJHFLAGS= -force
